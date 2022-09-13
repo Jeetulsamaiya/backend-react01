@@ -12,6 +12,6 @@ router.post('/signup',[
     check('email').isEmail().withMessage('Email must be valid')
 ], signup)
 
-
-
 module.exports = router;
+
+
